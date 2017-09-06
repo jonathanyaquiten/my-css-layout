@@ -11,7 +11,7 @@
 }
 
 .con{
-	background-color: grey;
+	background-color: #CACFD2;
 }
 
 
@@ -19,7 +19,7 @@
 header{
 	height: 250px;
 	width: 1024px;
-	background-color: lightgrey;
+	background-color: #D7DBDD;
 	position: relative;
 }
 .searchcon{
@@ -110,15 +110,16 @@ h3{
 main{
 	width: 1024px;
 	height: 100%;
-	background-color: lightgrey;
+	background-color: white;
+	borer: 5px solid red;
 	margin-top: 40px;
-	margin-bottom: -20px;
 }
 .myBoxCon{
 	width: 1024px;
 	/*background-color: blue;*/
 	background-color: white;
 	overflow: hidden;
+	padding-bottom: 20px;
 }
 .myBox{
 	height: 220px;
@@ -162,7 +163,6 @@ p > a:focus{
 	text-decoration: underline;
 }
 .lrcon{
-	min-height: 500px;
 	width: 1024px;
 	background-color: white; 
 	margin-top: 20px;
@@ -181,7 +181,6 @@ p > a:focus{
 	width: 632px;
 	border-bottom: 1px solid lightgrey;
 	margin: 5px;
-	padding-bottom: 40px;
 }
 h2{
 	padding: 10px;
