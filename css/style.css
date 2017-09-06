@@ -1,0 +1,320 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Arial", Georgia, Serif;
+}
+.clear{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.con{
+	background-color: grey;
+}
+
+
+
+header{
+	height: 250px;
+	width: 1024px;
+	background-color: lightgrey;
+	position: relative;
+}
+.searchcon{
+	width: 290px;
+	border-top: 5px solid red;
+	float: right;
+}
+input[name="searchbox"]{
+	height: 40px;
+	width: 250px;
+	margin: 20px 10px 10px 20px;
+	padding: 10px;
+	opacity: 0.5;
+}
+.boxpic{
+	margin-top: 90px;
+	margin-left: 20px;
+	float: left;
+	width: 500px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 10px;
+}
+strong{
+color: skyblue;
+}
+nav{
+	/*background-color: red;*/
+	line-height: 50px;
+	height: 50px;
+	width: 100%;
+	border-top: 1px solid grey;
+	opacity: rgba(0,0,0,1);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+nav > ul a> li{
+	display: inline;
+	margin-right: -4px;
+	padding: 15px;
+	/*background-color: blue;*/
+}
+a{
+	text-decoration: none;
+	color: black;
+	margin: 0;
+}
+nav > ul a> li:hover{
+	color: white;
+	background-color: orange;
+}
+nav > ul a> li:focus{
+	color: white;
+	background-color: orange;
+}
+nav > ul a> li:active{
+	color: white;
+}
+
+
+
+.piccon{
+	position: relative;
+}
+img[class="pic"]{
+	width: 100%;
+	height: 300px;
+	border-top: 5px solid black;
+	background-color: red;
+}
+/*.boxpic{
+	width: 500px;
+	position: absolute;
+	bottom: 20%;
+	left: 15%;
+	transform: translate(50%, 50%);
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+}*/
+h3{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+
+
+main{
+	width: 1024px;
+	height: 100%;
+	background-color: lightgrey;
+	margin-top: 40px;
+	margin-bottom: -20px;
+}
+.myBoxCon{
+	width: 1024px;
+	/*background-color: blue;*/
+	background-color: white;
+	overflow: hidden;
+}
+.myBox{
+	height: 220px;
+	width: 310px;
+	background-color: white;
+	display: inline-block;
+	margin-right: -4px;
+	margin: 10px 0 10px 20px;
+	position: relative;
+	/*border: 1px solid black;*/
+
+}
+.myBox:hover{
+	padding-top: 110px;
+}
+.myBox1{
+	height: 220px;
+	width: 310px;
+	position: absolute;
+	top: 0;
+
+}
+img[alt*=jewelry]{
+	height: 220px;
+	width: 310px;
+	display: block;
+}
+.details{
+	height: 110px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+}
+p > a{
+	color: orange;
+}
+p > a:hover{
+	text-decoration: underline;
+}
+p > a:focus{
+	text-decoration: underline;
+}
+.lrcon{
+	min-height: 500px;
+	width: 1024px;
+	background-color: white; 
+	margin-top: 20px;
+}
+.left{
+	background-color: white;
+	height: 100%;
+	width: 672px;
+	float: left;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.reccon{
+	height: 100%;
+	width: 632px;
+	border-bottom: 1px solid lightgrey;
+	margin: 5px;
+	padding-bottom: 40px;
+}
+h2{
+	padding: 10px;
+	color:  grey;
+	text-align: left;
+}
+p{
+	margin: 10px;
+	color:  grey;
+	text-align: left;
+}
+img[alt="pic1"]{
+	height: 80px;
+	width: 140px;
+	float: left;
+	margin: 10px;
+}
+.readMore{
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	width: 100px;
+	float: right;
+	margin-right: 10px;
+	background-color: orange;
+	color:  rgba(0,0,0,1);
+	border: 0;
+	border-radius: 5px;
+}
+.readMore > a > li{
+	display: block; font-size: 12px;
+	color: white;
+}
+.readMore > a > li:hover{
+	text-decoration: underline;
+	color: white;
+}
+.readMore > a > li:focus{
+	text-decoration: underline;
+	color: white;
+}
+h4{
+	padding: 10px;
+	color:  grey;
+}
+h4:hover{
+	text-decoration: underline;
+}
+.right{
+	background-color: white;
+	/*background-color: green;*/
+	height: 100%;
+	width: 352px;
+	float: left;
+}
+.follow{
+	height: 50px;
+	text-align: center;
+	/*background-color: red;*/
+	overflow: hidden;
+}
+div > ul > a > li > img[alt*="shareMe"]{
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	border-radius: 100%;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+div > ul > a > li{
+	display: inline;
+}
+.boxRight{
+	height: 250px;
+	background-color: grey;
+	margin: 5px 20px;
+}
+.boxRightText{
+	height: 200px;
+	/*background-color: black;*/
+	margin: 5px 20px;
+}
+a > p:hover{
+	color: orange;
+}
+/*h5{
+	color: black;
+	padding: 3px;
+}
+a > h5:hover{
+	color: orange;
+	text-decoration: none;
+}
+a > h5:focus{
+	color: orange;
+	text-decoration: none;
+}*/
+
+
+
+
+footer{
+	height: 200px;
+	background-color: black;
+	margin-bottom: 20px;
+}
+.footboxcon{
+	height: 200px;
+	width: 1024px;
+	text-align: center;
+}
+.footbox{
+	min-height: 100px;
+	width: 300px;
+	/*background-color: grey;*/
+	padding-top: 30px;
+	display: inline-block;
+	text-align: left;
+	float: left;
+}
+label{
+	color: grey;
+	font-size: 25px;
+}
+h6{
+	color: white;
+	margin-top: 5px;
+}
+a > h6:hover{
+	color: orange;
+	text-decoration: none;
+}
+a > h6:focus{
+	color: orange;
+	text-decoration: none;
+}
