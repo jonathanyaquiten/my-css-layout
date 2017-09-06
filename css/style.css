@@ -181,6 +181,8 @@ p > a:focus{
 	width: 632px;
 	border-bottom: 1px solid lightgrey;
 	margin: 5px;
+	display: inline-block;
+	padding-bottom: 10px;
 }
 h2{
 	padding: 10px;
